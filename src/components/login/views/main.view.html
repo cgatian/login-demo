@@ -1,0 +1,9 @@
+ <md-content class="md-padding">
+        <md-list>
+          <md-subheader class="md-no-sticky">Recent Logins</md-subheader>
+          <md-list-item ng-repeat="persona in $ctrl.personas" ng-click="login(persona, $event)">
+            <img alt="NAME" ng-src="{{::persona.avatar}}" class="md-avatar" />
+            <p>{{persona.name}}</p>
+          </md-list-item>
+        </md-list>
+      </md-content>

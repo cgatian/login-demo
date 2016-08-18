@@ -13,6 +13,6 @@ angular.module('app', [uiRouter, angularMaterial, loginComponent])
         $stateProvider
             .state('login', {
                 url: "/login",
-                template: "<login-component></login-component>"
+                template: "<login-component flex></login-component>"
             })
     });
